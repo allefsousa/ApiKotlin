@@ -1,0 +1,18 @@
+### GET request that fetches hall the hotels
+GET {{host-url}}/hotels/all
+Content-Type: application/json
+
+### GET request that fetches hotels by name
+GET {{host-url}}/hotels/JR
+Content-Type: application/json
+
+### POST request to checkin some guests
+POST {{host-url}}/hotels/checkin
+Content-Type: application/json
+
+{
+  "hotelName": "Ibis",
+  "nbGuests": 4
+}
+
+###
